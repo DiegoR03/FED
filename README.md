@@ -36,7 +36,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken voor kick-off werkgroep</summary>
 
   ### Je opdracht:
-  https://www.samsung.com/nl/
+  https://www.samsung.com/nl/ <br>
   Samsung Home website, hier kan je meerdere telefoons bekijken en plannen om de telefoons te kopen.
 
   #### Screenshot(s) van de eerste pagina (small screen): 
