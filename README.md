@@ -36,11 +36,11 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken voor kick-off werkgroep</summary>
 
   ### Je opdracht:
-  https://www.samsung.com/nl/ <br>
-  Samsung Home website, hier kan je meerdere telefoons bekijken en plannen om de telefoons te kopen.
+  https://www.samsung.com/nl/](https://www.basic-fit.com/nl-nl/home <br>
+  Basic Fit home website, hier kan je meerdere producten en andere informatie bronnen vinden.
 
   #### Screenshot(s) van de eerste pagina (small screen): 
-  Samsung Nederland
+  Basic Fit
   <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="omschrijving van de pagina">
 
   #### Screenshot(s) van de tweede pagina (small screen):
