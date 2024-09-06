@@ -37,13 +37,14 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   https://www.koenigsegg.com/home <br>
   Koenigsegg home website, hier kan je meerdere producten en andere informatie bronnen vinden.
 
-  #### Screenshot(s) van de eerste pagina (small screen): 
+  #### Screenshot(s) van de eerste pagina (small screen): ![Uploading image.png…]()
+
   Home - Koenigsegg <br>
-  <img src="![image](https://github.com/user-attachments/assets/40858e02-dc1b-4033-acc2-3a8ae8b03199)" width="375px" alt="omschrijving van de pagina">
+  <img src="https://github.com/user-attachments/assets/40858e02-dc1b-4033-acc2-3a8ae8b03199" width="375px" alt="omschrijving van de pagina">
 
   #### Screenshot(s) van de tweede pagina (small screen):
-  Jesko Absolut | Koensegg
-  <img src="![image](https://github.com/user-attachments/assets/16b1c23c-5f65-474d-98d2-44f894705e7e)" width="375px" alt="omschrijving van de pagina">
+  Jesko Absolut | Koensegg <br>
+  <img src="https://github.com/user-attachments/assets/16b1c23c-5f65-474d-98d2-44f894705e7e" width="375px" alt="omschrijving van de pagina">
  
 </details>
 
