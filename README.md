@@ -37,8 +37,8 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   https://www.koenigsegg.com/home <br>
   Koenigsegg home website, hier kan je meerdere producten en andere informatie bronnen vinden.
 
-  #### Screenshot(s) van de eerste pagina (small screen): ![Uploading image.png…]()
-
+  #### Screenshot(s) van de eerste pagina (small screen): 
+  
   Home - Koenigsegg <br>
   <img src="https://github.com/user-attachments/assets/40858e02-dc1b-4033-acc2-3a8ae8b03199" width="375px" alt="omschrijving van de pagina">
 
