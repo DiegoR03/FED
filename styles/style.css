@@ -5,27 +5,100 @@
   box-sizing:border-box;  
 }
 
-
-
-
-
-
 /*********************/
 /* CUSTOM PROPERTIES */
 /*********************/
 :root {
 	/* startje */
-	--color-text:#111;
-	--color-background:#eee;
+	--color-text:white;
+	--color-background:white;
+	--height-screen: 85vh;
+	--width-screen: 100vw;
 }
 
+/* Fonts */
+h1, h2{
+	color: white;
+	font-family: "Orbitron", sans-serif;
+	font-optical-sizing: auto;
+	grid-row: 2;
+	font-weight: 900;
+	font-style: italic;
+}
 
+h1{
+	font-size: 20vw;
+	grid-column: 2 / 3;
+}
 
+h2{
+	font-size: 14vw;
+	grid-column: 5 / 6;
+	margin-top: 1.3em;
+	margin-left: 0.75em;
+}
 
+/* Bodies */
+body{
+	margin:0;
+	box-sizing: border-box;
+	display: grid;
+}
 
-/****************/
-/* JOUW STYLING */
-/****************/
+section {
+	height: var(--height-screen);
+	max-width: var(--width-screen);
+	background-color: white;
+	display: grid;
+	grid-template-columns: 10% 10% 10% 20% 20% 10% 10% 10%; 
+	grid-template-rows: 10% 10% 10% 40% 10% 10% 10%;
+}
 
-/* jouw code */
+section:nth-of-type(1), section:nth-of-type(2){
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: var(--height-screen);
+	width: var(--width-screen);
+	background-position: center;
+}
+
+section:nth-of-type(1){
+	background-image: url("../images/HomePageImg.jpeg");
+}
+
+section:nth-of-type(2){
+	background-image: url("../images/GemeraImg.jpeg");
+}
+
+section:nth-of-type(3){
+	background-color: black;
+}
+
+/* Elements Opmaak */
+img{
+	width: var(--width-screen);
+	height: var(--height-screen-phone);
+	display: inline-block;
+	overflow: hidden;
+	object-fit: cover;
+}
+
+.logo{
+	width: 40vw;
+	height: auto;
+	position: relative;
+	grid-column: 2 / 3;
+	grid-row: 2 / 2;
+}
+
+button {
+	width: 7em;
+	height: 3em;
+	grid-column: 6 / 8;
+	grid-row: 5;
+	color: white;
+	border: none;
+	background-color: transparent;
+	font-style: bold;
+}
 
