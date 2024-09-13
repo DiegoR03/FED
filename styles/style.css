@@ -210,7 +210,7 @@ img{
 	z-index: 1;
 }
 
-#imageLeftSide{
+.imageLeftSide{
 	width: 15vw;
 	height: auto;
 	position: relative;
@@ -220,7 +220,7 @@ img{
 	z-index: 1;
 }
 
-#imageRightSide{
+.imageRightSide{
 	width: 15vw;
 	height: auto;
 	position: relative;
@@ -263,13 +263,13 @@ button{
 	margin-left: 2em;
 }
 
-#discoverMore{
+.discoverMore{
 	grid-column: 1 / 7;
 	grid-row: 4;
 	z-index: 1;
 }
 
-#discoverMore img{
+.discoverMore img{
 	margin-top: 2em;
 	width: 12em;
 	height: auto;
