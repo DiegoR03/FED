@@ -40,11 +40,11 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   #### Screenshot(s) van de eerste pagina (small screen): 
   
   Home - Koenigsegg <br>
-  <img src="https://github.com/user-attachments/assets/40858e02-dc1b-4033-acc2-3a8ae8b03199" width="375px" alt="omschrijving van de pagina">
+  <img src="../readme-images/HomePage.png">
 
   #### Screenshot(s) van de tweede pagina (small screen):
   Jesko Absolut | Koensegg <br>
-  <img src="https://github.com/user-attachments/assets/16b1c23c-5f65-474d-98d2-44f894705e7e" width="375px" alt="omschrijving van de pagina">
+  <img src="../readme-images/JeskoPage.png">
  
 </details>
 
