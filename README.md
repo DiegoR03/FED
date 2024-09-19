@@ -76,14 +76,25 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken na afloop 3<sup>e</sup> werkgroep</summary>
 
   ### de hele pagina: 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="breakdown van de hele pagina">
+  <img src="readme-images/P1Section1">
+  <br>
+  <img src="readme-images/P1Section2">
+  <br>
+  <img src="readme-images/P2Section1">
+  <br>
+  <img src="readme-images/P2Section2">
+  <br>
+  <img src="readme-images/P2Section3">
+  
 
   ### dynamisch deel (bijv menu): 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="breakdown van een dynamisch deel">
+  <img src="readme-images/MenuDynamisch">
 
   ### wellicht nog een dynamisch deel (bijv filter): 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="breakdown van nog een dynamisch deel">
-
+  <img src="readme-images/HeaderDynamisch">
+  <br>
+  Ik heb voor de eerste paar schetsen de meest belangrijke onderdelen uitgewerkt die niet vaak worden herhaalt of uniek van zichzelf zijn op de pagina's die ik heb uitgekozen. Ik heb van de eerst pagina twee screenshots uitgewerkt waar je duidelijk kan zien welke elementen waar worden gebruikt. De eerste foto is de aller erste section die je krijgt te zien als je de website net bezoekt, dit bestaat uit een logo, menu, een h1 en een button. Daarna krijg je de tweede section te zien op de tweede foto, en dit zijn showcases van autos met button die lijden naar andere fotos en buttons van auto's.
+  Voor de tweede pagina heb ik drie screenshots uitgewerkt die alle drie uniek zijn. De eerste foto is van de aller eerste section van die pagina, dit is wat je als eerst krijgt te zien als je deze pagina bezoekt. Daarna de tweede section, dit is voornamelijk tekst en informatie, en de derde seciton is een foto met een h2
 </details>
 
 
