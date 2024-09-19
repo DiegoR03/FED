@@ -1,5 +1,6 @@
 // JavaScript Document
 const menuButton = document.querySelector('.menuButton')
+const headerButton = document.querySelector('.buttonHeader')
 const menuBody = document.querySelector('nav')
 const header = document.querySelector('header')
 
@@ -33,3 +34,4 @@ function scrollHide() {
 window.onscroll = function() {scrollHide()};
 
 menuButton.addEventListener('click', openMenu);
+headerButton.addEventListener('click', openMenu);

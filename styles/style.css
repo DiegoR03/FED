@@ -210,6 +210,7 @@ section:nth-of-type(1):after {
 	position: absolute; 
 	height: 90vh;
 	background: linear-gradient(to bottom, rgba(0, 0, 0, 0.384) 0%,rgba(255, 255, 255, 0) 50%, rgb(0, 0, 0) 95%);
+	pointer-events: none;
 }
 
 /* Section 2 */
@@ -221,12 +222,14 @@ section:nth-of-type(2):before {
 	position: relative;
 	top: 0;
 	background: linear-gradient(to top, rgba(0, 0, 0, 0.24) 0%, rgb(0, 0, 0) 100%);
+	pointer-events: none;
 }
 
 section:nth-of-type(2):after {
 	position: absolute; 
 	background: linear-gradient(to bottom, rgba(0, 0, 0, 0.384) 0%,rgba(255, 255, 255, 0) 50%, rgb(0, 0, 0) 95%);
 	height: 90vh;  
+	pointer-events: none;
 }
 
 /* Section 3 */
@@ -237,32 +240,56 @@ section:nth-of-type(3){
 /* Menu */
 nav{
 	display: none;
-	position: absolute;
+	position: fixed;
 	width: var(--width-screen);
 	height: 100VH;
 	background-color: #687c7b;
 	z-index: 2;
-	grid-template-columns: 40vw, 40vw, 20vw;
-	grid-template-rows: 10vh, 20vh, 30vh, 40vh;
+	grid-template-columns: 10vw 45vw 20vw 25vw;
+	grid-template-rows: 10vh 20vh 30vh 40vh;
 }
 
 nav ul:nth-of-type(1){
+	display: list-item;
 	grid-column: 2/3;
 	grid-row: 2;
+	width: 10vw;
 }
 
 nav ul:nth-of-type(2){
 	grid-column: 2/3;
-	grid-row: 5;
+	grid-row: 4;
+	display: list-item;
+	width: 35vw;
+}
+
+nav ul:nth-of-type(3){
+	grid-column: 3/3;
+	grid-row: 4;
+	display: list-item;
+	width: 35vw;
 }
 
 nav ul li{
+	height: 5vh;
+	width: 20vw;
+	float: none;
+}
+
+nav ul li a{
 	font-size: 10vw;
 	font-family:Arial, Helvetica, sans-serif;
 	font-optical-sizing: auto;
 	font-weight: 500;
 	font-style: normal;
 	color: white;
+	text-decoration: none;
+}
+
+nav ul:nth-of-type(2) li, nav ul:nth-of-type(3) li{
+	height: 4vh;
+	width: 40vw;
+	float: none
 }
 
 .menuButton{
@@ -323,6 +350,15 @@ img{
 	position: relative;
 	grid-column: 2 / 2;
 	grid-row: 2;
+}
+
+#logoNav{
+	width: 35vw;
+	height: auto;
+	position: relative;
+	grid-column: 2 / 2;
+	grid-row: 1;
+	margin-top: 5vh;
 }
 
 .imageLeftSide{
