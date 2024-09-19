@@ -109,24 +109,35 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   ### Stand van zaken
   hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
 
+  Ik vond dat het programmeren en bedenken van code zelf zeer goed ging, ik had weinig problemen tot nu toe en kon alles vrij makkelijk doen, mijn opbouw van de website gaat ook zeer snel en heeft op dit moment een zeer goede snelheid waar ik blij mee ben. Ook vind ik dat het programmeren met grid heel goed is gegaan. Door het grid systeem is de hele website bouwen 100x makkelijker geworden.
+  <br>
+  ### Grid Sections
+  <img src="readme-images/GridSection.png">
+
+  ### Header Code
+  <img src="readme-images/HeaderCode.png">
+
+  ### Javascript for Hamburger Menu
+  <img src="readme-images/MenuJavascript.png">
 
   ### Agenda voor meeting
   samen met je groepje opstellen
 
-  | student 1      | student 2          | student 3    | student 4        |
-  | ---            | ---                | ---          | ---              |
-  | dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
-  | en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
-  | ...            | ...                | ...          | ...              |
+  | Diego          | Chanel             | Yasmine        | -                |
+  | ---            | ---                | ---            | ---              |
+  | Hamburger menu | Headings           | algemene check | ---              |
+  | headings       | Opmaak             | ...            | ---              |
+  | ...            | Algemeen check     | ...            | ...              |
 
 
   ### Verslag van meeting
   hier na afloop snel de uitkomsten van de meeting vastleggen
 
-  - punt 1
-  - punt 2
-  - nog een punt
-  - ...
+  - Let voornamelij op de heading types
+  - Alt tekst
+  - Hamburger menu maken
+<br>
+In het algemeen zag de website er al zeer goed uit en was Ivo zeer blijh met de progressie, hij vond wel dat de github read.me er best leeg uitzag en vond da tik  er meer an moet zitten. Verder moet ik in het vervolg beter opletten op welke headings ik gebruik. Nu heb ik meerdere h2's of h3's op verkeerde volgorde staan terwijl er een duidelijke hierarchie is voor deze elementen. Ook kreeg ik antwoord op mijn vraag wat betreft de hamburger menu's, maar dit kan ik gewoon maken zonder problemen.
 
 </details>
 
