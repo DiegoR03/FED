@@ -20,7 +20,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   Rood, misschien zwart
 
   #### Je focus:
-  Responsiveness
+  Opmaak en Animaties
  
 </details>
 
@@ -62,6 +62,10 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   - Veel tekst wordt overgeslagen
   - Screen reader start onderaan de website
   - Veel foto's leeg (Geen alt informatie)
+
+  Tijdens het doen van deze test ben ik er al snel achter gekomen dat de website niet gemaakt is voor mensen met een lichamelijke aandoening. Er is bijna geen navigatie wat betreft de buttons en images; de buttons en elementen die wel tab navigatie hebben zijn vaak niet goed ingedeelt. Als je op de TAB button klikt dan begin je onderaan de website bij de footer, dan moet je eerst al die buttons af en dan ga je weer terug naar boven aan de pagina. Eenmaal terug boven aan zijn er daadwerkelijk maar iets van 4 buttons die je kan selecteren, en daarna ben je weer terug onderaan de website.
+  Het hambugrer menu zelf werkt wel, maar is moeilijk om bij te komen door het vorige opgenoemde probleem.
+  Ook kan je de foto's zelf niet selecteren, dus krijgen blinde mensen niet de horen wat er daadwerkelijk wordt weergegeven omdat er geen alt tekst is.
 </details>
 
 
