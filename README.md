@@ -263,6 +263,6 @@ In het algemeen zag de website er al zeer goed uit en was Ivo zeer blijh met de 
   2. https://www.koenigsegg.com/model/jesko-absolut
   3. [Koenigsegg search Link](https://www.google.com/search?q=koenigsegg&client=opera-gx&hs=0F3&sca_esv=24731a508b288d28&sca_upv=1&sxsrf=ADLYWIKtnU6MareJp1gvp1XBgV5XtMP8JA%3A1725648579442&ei=w07bZtDJGoCJ9u8Pz9zVuAE&oq=koe&gs_lp=Egxnd3Mtd2l6LXNlcnAiA2tvZSoCCAEyChAjGIAEGCcYigUyChAjGIAEGCcYigUyChAAGIAEGEMYigUyChAAGIAEGEMYigUyEBAAGIAEGLEDGEMYgwEYigUyEBAAGIAEGLEDGEMYgwEYigUyExAuGIAEGLEDGNEDGEMYxwEYigUyChAAGIAEGEMYigUyCxAAGIAEGLEDGIMBMgsQABiABBixAxiDAUjmClAAWI4CcAB4AJABAJgBQqABtgGqAQEzuAEDyAEA-AEBmAIDoALAAcICBBAjGCfCAhEQLhiABBixAxjRAxiDARjHAcICCBAAGIAEGLEDwgIFEAAYgATCAg4QABiABBixAxiDARiKBZgDAJIHATOgB_si&sclient=gws-wiz-serp)
   4. https://codepen.io/Mikystone/pen/poyZoYa
-  5. 
+  5. https://bennettfeely.com/clippy/
 
 </details>
