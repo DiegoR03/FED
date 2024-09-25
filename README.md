@@ -152,7 +152,7 @@ In het algemeen zag de website er al zeer goed uit en was Ivo zeer blijh met de 
 
   ### Stand van zaken
   hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
-
+  Tot nu toe verloopt het coderen van mijn hele websites verassend soepel, ik heb nog geen problemen gehad en alles verloopt precies zoals ik wil. Ik heb het wel druk, dus het tempo is minder hoog dan gewilt, maar de progressie gaat goed en zoals het nu verloopt hebben de student-assistenten er vol vertrouwen in dat ik het haal.
 
   ### Agenda voor meeting
   samen met je groepje opstellen
@@ -167,10 +167,8 @@ In het algemeen zag de website er al zeer goed uit en was Ivo zeer blijh met de 
   ### Verslag van meeting
   hier na afloop snel de uitkomsten van de meeting vastleggen
 
-  - punt 1
-  - punt 2
-  - nog een punt
-- ...
+  - Tips over animaties gekregen.
+  - Code goed gekeurd
 
 </details>
 
@@ -182,10 +180,20 @@ In het algemeen zag de website er al zeer goed uit en was Ivo zeer blijh met de 
 
 <details>
   <summary>uitwerken na test in 9<sup>e</sup> werkgroep</summary>
-
+  
   ### Bevindingen
-  Lijst met je bevindingen die in de test naar voren kwamen (geef ook aan wat er verbeterd is):
+  Lijst met je bevindingen die in de test naar voren kwamen:
+  <br>
+  - Ik heb mijn website goed verwerkt wat betreft toegankelijkheid.
+  - Er missen hier en daar nog een paar elementen maar alles loopt goed bij (Er missen een paar buttons)
+  - Ik kon niet de hele checklist afvinken omdat de pagina's die ik heb gekozen niet alle elementen bevatten die ik moet uittesten (Videos, gifs, etc.)
+  - Alt teksten zijn wel aanwezig.
+  - Ik heb een logische volgorde toegevoegd aan mijn buttons, op de originele pagina begint de screenreader onderaan.
+<br>
 
+Omdat ik vorige keer de originele website heb getest wist ik wel waar ik naar toe moest werken. Er moesten veel verbeteringen worden gemaakt wat betreft de toegankelijkheid. Buttons hadden een verkeerde volgorde en startte onderaan, en sommige buttons werden helemaal niet geselecteerd. Dit is allemaal gefixed op mijn website. Ook heeft elke foto nu een alt tekst; dit was ook iets dat de originele pagina niet had.
+Het hamburger menu kan je nu ook openen door midden van de TAB button, en in de hamburger menu kan je nu ook weer weg navigeren.
+De tweede pagina had eigenlijk de zelfde problemen en deze zijn ook opgelost.
 </details>
 
 
