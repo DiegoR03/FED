@@ -59,6 +59,35 @@ function scrollHide() {
 }
 window.onscroll = function() {scrollHide()};
 
+function revealText() {
+  var wrapper = document.querySelectorAll("section");
+  wrapper.forEach(function (parent, index) {
+    var windowHeight = window.innerHeight;
+    var elementTop = parent.getBoundingClientRect().top;
+    var elementVisible = 30;
+
+    if (elementTop < windowHeight - elementVisible) {
+      var textElements = parent.querySelectorAll("h2, p");
+      var imgElements = parent.querySelectorAll("img");
+
+        textElements.forEach(function (element) {
+          setTimeout(function () {
+            element.classList.add("animate");
+          }, index * 200);
+        });
+
+        imgElements.forEach(function (element) {
+          setTimeout(function () {
+            element.classList.add("animateImages");
+          }, index * 200);
+        });
+      }
+  });
+}
+
+window.addEventListener("scroll", revealText);
+revealText();
+
 menuButton.addEventListener('click', openMenu);
 headerButton.addEventListener('click', openMenu);
 
@@ -66,8 +95,8 @@ gemeraButton.addEventListener('click', function(){
   changeClasses('Absolut', 'Attack', 'Gemera', "WORLDS FIRST", "MEGA GT FOR FOUR");
 }); 
 attackButton.addEventListener('click', function(){
-  changeClasses('Absolut', 'Gemera', 'Attack', "ROAD LEGAL", "TRACK LEGEND")
+  changeClasses('Absolut', 'Gemera', 'Attack', "ROAD LEGAL", "TRACK LEGEND");
 });  
 jeskoButton.addEventListener('click', function(){
-  changeClasses('Gemera', 'Attack', 'Absolut', "FASTEST", "EVER MADE")
+  changeClasses('Gemera', 'Attack', 'Absolut', "FASTEST", "EVER MADE");
 });
