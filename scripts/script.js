@@ -1,16 +1,12 @@
 // JavaScript Document
 const menuButton = document.querySelector('.menuButton')
 const headerButton = document.querySelector('.buttonHeader')
+const footer = document.querySelector('footer') 
 const menuBody = document.querySelector('nav')
 const header = document.querySelector('header')
 const nav = document.querySelector('nav')
 const body = document.querySelector('body')
 const section2 = document.querySelector('#sectionTwo')
-const gemeraButton = document.querySelector('.GemeraButton')
-const attackButton = document.querySelector('.AttackButton')
-const jeskoButton = document.querySelector('.AbsolutButton')
-const firstH2 = document.getElementById('firstHeader')
-const secondH2 = document.getElementById("secondHeader")
 
 let lastScrollTop = 0;
 let scrollFromTop;
@@ -32,14 +28,6 @@ function openMenu(){
     nav.classList.add('opened');
     body.classList.add('disableScrollBody');
   }
-}
-
-function changeClasses(removeFirst, removeSecond, AddClass, firstContent, secondContent){
-  section2.classList.remove(removeFirst);
-  section2.classList.remove(removeSecond);
-  section2.classList.add(AddClass);
-  firstH2.textContent = firstContent;
-  secondH2.textContent = secondContent;
 }
 
 function scrollHide() {
@@ -85,18 +73,25 @@ function revealText() {
   });
 }
 
+// Close all the details elements
+const details = document.querySelectorAll("details");
+
+details.forEach((detail) => {
+  detail.addEventListener("toggle", () => {
+    if (detail.open) setTargetDetail(detail);
+  });
+});
+
+function setTargetDetail(targetDetail) {
+  details.forEach((detail) => {
+    if (detail !== targetDetail) {
+      detail.open = false;
+    }
+  });
+}
+
 window.addEventListener("scroll", revealText);
 revealText();
 
 menuButton.addEventListener('click', openMenu);
 headerButton.addEventListener('click', openMenu);
-
-gemeraButton.addEventListener('click', function(){
-  changeClasses('Absolut', 'Attack', 'Gemera', "WORLDS FIRST", "MEGA GT FOR FOUR");
-}); 
-attackButton.addEventListener('click', function(){
-  changeClasses('Absolut', 'Gemera', 'Attack', "ROAD LEGAL", "TRACK LEGEND");
-});  
-jeskoButton.addEventListener('click', function(){
-  changeClasses('Gemera', 'Attack', 'Absolut', "FASTEST", "EVER MADE");
-});
