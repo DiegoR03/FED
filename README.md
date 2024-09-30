@@ -58,15 +58,15 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   ### Bevindingen
   <br>
 
-  <img src="readme-images/Checkist/Test1/Diego_Ramon_210_WCAG_Checklist_Week1_Page_1.png">
+  <img src="readme-images/Checklist/Test1/Diego_Ramon_210_WCAG_Checklist_Week1_Page_1.png">
 
-  <img src="readme-images/Checkist/Test1/Diego_Ramon_210_WCAG_Checklist_Week1_Page_2.png">
+  <img src="readme-images/Checklist/Test1/Diego_Ramon_210_WCAG_Checklist_Week1_Page_2.png">
 
-  <img src="readme-images/Checkist/Test1/Diego_Ramon_210_WCAG_Checklist_Week1_Page_3.png">
+  <img src="readme-images/Checklist/Test1/Diego_Ramon_210_WCAG_Checklist_Week1_Page_3.png">
 
-  <img src="readme-images/Checkist/Test1/Diego_Ramon_210_WCAG_Checklist_Week1_Page_4.png">
+  <img src="readme-images/Checklist/Test1/Diego_Ramon_210_WCAG_Checklist_Week1_Page_4.png">
 
-  <img src="readme-images/Checkist/Test1/Diego_Ramon_210_WCAG_Checklist_Week1_Page_5.png">
+  <img src="readme-images/Checklist/Test1/Diego_Ramon_210_WCAG_Checklist_Week1_Page_5.png">
   
   ### Lijst met je bevindingen die in de test naar voren kwamen:
   - Website is niet heel goed blind toegankelijk
@@ -212,15 +212,15 @@ In het algemeen zag de website er al zeer goed uit en was Ivo zeer blijh met de 
 <details>
   <summary>uitwerken na test in 9<sup>e</sup> werkgroep</summary>
 
-  <img src="readme-images/Checkist/Test2/Diego_Ramon_210_WCAG_Checklist_Week1_Page_1.png">
+  <img src="readme-images/Checklist/Test2/Diego_Ramon_210_WCAG_Checklist_Week1_Page_1.png">
 
-  <img src="readme-images/Checkist/Test2/Diego_Ramon_210_WCAG_Checklist_Week1_Page_2.png">
+  <img src="readme-images/Checklist/Test2/Diego_Ramon_210_WCAG_Checklist_Week1_Page_2.png">
 
-  <img src="readme-images/Checkist/Test2/Diego_Ramon_210_WCAG_Checklist_Week1_Page_3.png">
+  <img src="readme-images/Checklist/Test2/Diego_Ramon_210_WCAG_Checklist_Week1_Page_3.png">
 
-  <img src="readme-images/Checkist/Test2/Diego_Ramon_210_WCAG_Checklist_Week1_Page_4.png">
+  <img src="readme-images/Checklist/Test2/Diego_Ramon_210_WCAG_Checklist_Week1_Page_4.png">
 
-  <img src="readme-images/Checkist/Test2/Diego_Ramon_210_WCAG_Checklist_Week1_Page_5.png">
+  <img src="readme-images/Checklist/Test2/Diego_Ramon_210_WCAG_Checklist_Week1_Page_5.png">
   
   ### Bevindingen
   Lijst met je bevindingen die in de test naar voren kwamen:
