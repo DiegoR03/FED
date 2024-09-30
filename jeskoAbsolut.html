@@ -80,12 +80,12 @@
 			<h2>Extreme Performance</h2>
 			<p>Need for</p>
 			<p>Top Speed</p>
-			<img src="images/SecondPage/JeskoAbsolutFront.png" alt="Op deze foto wordt de voorkant van de snelste auto van Koenigsegg laten zien, vanwege de hoek zie je de hele auto van voor tot achteren">
-			<img src="images/SecondPage/JeskoAbsolutBack.png" alt="Hier heb je een kleine foto van de achterkan van de JeskoAbsolut, je ziet alleen de linker banden en 1 achterlamp">
-			<img src="images/SecondPage/JeskoAbsolutSide.png" alt="En als laatste heb je een foto van de zijkant van de auto, hier zie je duidelijk de schuine deur en de donkere ramen in beeld. Ook zie je de rechter banden duidelijk.">
+			<img id="JeskoImageOne" src="images/SecondPage/JeskoAbsolutFront.png" alt="Op deze foto wordt de voorkant van de snelste auto van Koenigsegg laten zien, vanwege de hoek zie je de hele auto van voor tot achteren">
+			<img id="JeskoImageTwo" src="images/SecondPage/JeskoAbsolutBack.png" alt="Hier heb je een kleine foto van de achterkan van de JeskoAbsolut, je ziet alleen de linker banden en 1 achterlamp">
+			<img id="JeskoImageThree" src="images/SecondPage/JeskoAbsolutSide.png" alt="En als laatste heb je een foto van de zijkant van de auto, hier zie je duidelijk de schuine deur en de donkere ramen in beeld. Ook zie je de rechter banden duidelijk.">
 			<ul>
 				<li>
-					<details>
+					<details open id="crankShaftButton">
 						<summary>
 							<h2>01</h2> 
 							Lightest V8 crankshaft
@@ -100,7 +100,7 @@
 					</details>
 				</li>
 				<li>
-					<details>
+					<details id="cfdButton">
 						<summary>
 							<h2>02</h2> 
 							Superior CFD
@@ -115,7 +115,7 @@
 					</details>
 				</li>
 				<li>
-					<details>
+					<details id="pressureButton">
 						<summary>
 							<h2>03</h2> 
 							Pressure Coefficient
@@ -133,13 +133,63 @@
 		</section>
 
 		<!-- Vijfde section, history -->
+		<section >
+			<article id="backgroundArticle"></article>
+			<article></article>
+		</section>
+
+		<!-- Zesde section, history -->
 		<section>
-			<h2>OUR HISTORY</h2>
-			<p>DELIVERING ON</p>
-			<p>A SINGULAR</p>
-			<p>VISION</p>
-			<img src="images/HistoryImg.png" alt="De foto van History">
-			<p>On Agust 12, 1994, a 22-year-old Christian von Koenigsegg decided to follow his dream and build the worlds greatest sports car. Koenigsegg Automotive is born.</p>
+			<h2>Jesko about Specifications</h2>
+			<ul>
+				<li>
+					<p>1600</p>
+					<p>HP</p>
+					<p>Output (on E85)</p>
+					<span></span>
+				</li>
+				<li>
+					<p>0.278</p>
+					<p>CD</p>
+					<p>Drag Coefficient</p>
+					<span></span>
+				</li>
+				<li>
+					<p>9</p>
+					<p>Speed</p>
+					<p>Light Speed Transmission</p>
+					<span></span>
+				</li>
+				<li>
+					<p>8.6:1</p>
+					<p>.</p>
+					<p>Compression</p>
+					<span></span>
+				</li>
+				<li>
+					<p>5.0</p>
+					<p>Liter</p>
+					<p>Koenigsegg Twin-turbo V8</p>
+					<span></span>
+				</li>
+			</ul>
+			<a><img src="images/Buttons/TechnicalButton.png" alt="Deze button leest 'Techincal Specifications', als je op deze knop klikt ga je naar een andere pagina waar je alle specificaties kan vinden over de Jesko Absolut "></a>
+		</section>
+
+		<!-- Zevende section, history -->
+		<section>
+			<h2>Record Smashing</h2>
+			<p>The Jesko Absolut is specifically designed for incredible speed. It boasts an aggressively sleek silhouette paired with insane powertrain engineering aimed at just one thing: groundbreaking top speed. The Jesko Absolut is unlike anything ever seen in an homologated, series production car</p>
+			<img id="mainPhoto" src="images/SecondPage/Carousel/Image13.png">
+			<img id="previewPhoto" src="images/SecondPage/Carousel/Image1.png">
+			<p>01</p>
+			<span></span>
+			<p>13</p>
+		</section>
+
+		<!-- Achtste section, history -->
+		<section>
+
 		</section>
 
 		<!-- Footer, socials en byuttons naar andere pagina's -->
@@ -195,6 +245,7 @@
 	</footer>
 
 	<script src="scripts/script.js"></script>
+	<script src="scripts/changeImages.js"></script>
 </body>
 	
 </html>
