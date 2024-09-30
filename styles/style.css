@@ -481,7 +481,7 @@ li {
 	text-transform: uppercase;
 }
 
-#bodyPageTwo section:nth-of-type(7) p{
+#bodyPageTwo section:nth-of-type(7) p:nth-of-type(1){
 	font-size: 2vh;
 	width: 80vw;
 	color: var(--color-text-opposite);
@@ -490,7 +490,45 @@ li {
 	margin-top: 3em;
 }
 
-#bodyPageTwo section:nth-of-type(7) img:nth-of-type(1){
+#bodyPageTwo section:nth-of-type(7) p:nth-of-type(2){
+	font-size: 2vh;
+	width: 80vw;
+	color: var(--color-text-opposite);
+	grid-column: 2 / 6;
+	grid-row: 5;
+	margin-top: 23em;
+}
+
+#bodyPageTwo section:nth-of-type(7) p:nth-of-type(3){
+	font-size: 2vh;
+	width: 80vw;
+	color: var(--color-text-opposite);
+	grid-column: 2 / 6;
+	grid-row: 5;
+	margin-top: 25em;
+}
+
+#bodyPageTwo section:nth-of-type(7) span:nth-of-type(1), #bodyPageTwo section:nth-of-type(7) span:nth-of-type(2){
+	position: relative;
+	z-index: 1;
+	margin-top: -3vh;
+	grid-column: 2 / 8;
+	grid-row: 6;
+}
+
+#bodyPageTwo section:nth-of-type(7) span:nth-of-type(1){
+	border-top: 1px solid #cfcfcfb6;
+}
+
+#bodyPageTwo section:nth-of-type(7) span:nth-of-type(2){
+	border-top: 2px solid var(--color-text-opposite);
+	animation-name: onLoadImages;
+	animation-duration: 10s;
+	animation-timing-function: linear;
+	animation-iteration-count: infinite;
+}
+
+#bodyPageTwo #mainPhoto{
 	font-size: 2vh;
 	width: 15em;
 	height: 15em;
@@ -500,16 +538,41 @@ li {
 	margin-top: 3em;
 }
 
-#bodyPageTwo section:nth-of-type(7) img:nth-of-type(2){
+#bodyPageTwo #previewPhoto{
 	font-size: 2vh;
 	width: 15em;
 	height: 15em;
 	color: var(--color-text-opposite);
-	grid-column: 7 / 9;
+	grid-column: 6 / 9;
 	grid-row: 5;
 	margin-top: 3em;
-	margin-left: 0.5em;
+	margin-left: 10vw;
 }
+
+#bodyPageTwo section:nth-of-type(7) button:nth-of-type(1) img{
+	width: 4em;
+	height: 4em;
+}
+
+#bodyPageTwo section:nth-of-type(7) button:nth-of-type(2) img{
+	width: 4em;
+	height: 4em;
+}
+
+#bodyPageTwo section:nth-of-type(7) button:nth-of-type(1){
+	width: 4em;
+	height: 4em;
+	grid-column: 5 / 9;
+	grid-row: 6;
+}
+
+#bodyPageTwo section:nth-of-type(7) button:nth-of-type(2){
+	width: 4em;
+	height: 4em;
+	grid-column: 6 / 9;
+	grid-row: 6;
+}
+
 
 /* Bodies */
 body{
@@ -1230,6 +1293,15 @@ section:nth-of-type(2) button:focus{
 		background-size: 118% 100%;
 		opacity: 1;
 		background-color: rgba(0, 0, 0, 0);
+	}
+}
+
+@keyframes onLoadImages{
+	0% {
+		width: 0;
+	}
+	  100% {
+		width: 80vw;
 	}
 }
 

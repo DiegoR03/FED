@@ -12,6 +12,9 @@ const firstArticle = document.getElementById('backgroundArticle')
 const mainImg = document.querySelector('#mainPhoto');
 const preImg = document.querySelector('#previewPhoto');
 
+const leftArrow = document.getElementById('leftArrow');
+const rightArrow = document.getElementById('rightArrow');
+
 let carouselImages = ['images/SecondPage/Carousel/Image1.png',
                       'images/SecondPage/Carousel/Image2.png',
                       'images/SecondPage/Carousel/Image3.png',
