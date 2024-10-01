@@ -8,7 +8,7 @@ const nav = document.querySelector('nav')
 const body = document.querySelector('body')
 const section2 = document.querySelector('#sectionTwo')
 
-const firstButton = document.getElementById('discover')
+const firstButton = document.querySelector('.firstButton')
 const details = document.querySelectorAll("details");
 
 let lastScrollTop = 0;
@@ -32,6 +32,12 @@ function openMenu(){
     body.classList.add('disableScrollBody');
   }
 }
+
+firstButton.addEventListener("focus", function () {
+  if (menuBody.style.display === "grid") {
+    openMenu();
+  }
+});
 
 // Makes the header appear and dissapear on scroll
 function scrollHide() {

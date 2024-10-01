@@ -54,7 +54,7 @@ function changeClasses(firstImage, secondImage, thirdImage){
 }
 
 window.onload = function () {
-  setInterval(changeImages, 2000);
+  setInterval(changeImages, 10000);
 };
 
 crankshaftBtn.addEventListener('click', function(){
