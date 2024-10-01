@@ -87,22 +87,14 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken na afloop 3<sup>e</sup> werkgroep</summary>
 
   ### de hele pagina: 
-  <img src="readme-images/P1Section1.png">
-  <br>
-  <img src="readme-images/P1Section2.png">
-  <br>
-  <img src="readme-images/P2Section1.png">
-  <br>
-  <img src="readme-images/P2Section2.png">
-  <br>
-  <img src="readme-images/P2Section3.png">
+  <img src="readme-images/SchetsUitwerkingPagina1.png">
   
 
   ### dynamisch deel (bijv menu): 
-  <img src="readme-images/MenuDynamisch.png">
+  <img src="readme-images/DynamischDeel1.png">
 
   ### wellicht nog een dynamisch deel (bijv filter): 
-  <img src="readme-images/HeaderDynamisch.png">
+  <img src="readme-images/DynamischDeel2.png">
   <br>
   Ik heb voor de eerste paar schetsen de meest belangrijke onderdelen uitgewerkt die niet vaak worden herhaalt of uniek van zichzelf zijn op de pagina's die ik heb uitgekozen. Ik heb van de eerst pagina twee screenshots uitgewerkt waar je duidelijk kan zien welke elementen waar worden gebruikt. De eerste foto is de aller erste section die je krijgt te zien als je de website net bezoekt, dit bestaat uit een logo, menu, een h1 en een button. Daarna krijg je de tweede section te zien op de tweede foto, en dit zijn showcases van autos met button die lijden naar andere fotos en buttons van auto's.
   Voor de tweede pagina heb ik drie screenshots uitgewerkt die alle drie uniek zijn. De eerste foto is van de aller eerste section van die pagina, dit is wat je als eerst krijgt te zien als je deze pagina bezoekt. Daarna de tweede section, dit is voornamelijk tekst en informatie, en de derde seciton is een foto met een h2
@@ -284,19 +276,27 @@ De tweede pagina had eigenlijk de zelfde problemen en deze zijn ook opgelost.
   <summary>uitwerken voor eindgesprek</summary>
 
   ### Je uitkomst - karakteristiek screenshots:
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="uitomst opdracht 1">
+  <img src="readme-images/Eindgesprek/HomePage">
 
 
   ### Dit ging goed/Heb ik geleerd: 
-  Korte omschrijving met plaatjes
+  1. Mijn hamburger menu vind ik persoonlijk heel goed gelukt! Het is me gelukt om een volledig werkende grid erin te hebben dit ook redelijk goed mee scaled.
+  2. Als tweede heb ik details, ik heb ze best goed kunnen opmaken met css en andere elementen, Ze zijn ook nog zeer accuraat vergeteleken met de originele website en het was best wel wat werk om het goed te krijgen.
+  3. Als derde heb ik de specififcatie section, dit was in het begin best wel een uitdaging om semantisch te schrijven, maar is uiteindelijk beter gelukt dan ik dacht!
+  4. Hier heb ik een carousel gemaakt die constant van fotos veranderdt met een kleine timer onderaan die bijhoudt wanneer de image verandert.
+  5. En als laatste de informatie sections, deze sections waren heel leuk om aan te passen en vond ik uiteindelijk ook het meest satisfying vanwege hun opmaak.
 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="top">
+  <img src="readme-images/Eindgesprek/GingGoed1.png">
+  <img src="readme-images/Eindgesprek/GingGoed2.png">
+  <img src="readme-images/Eindgesprek/GingGoed3.png">
+  <img src="readme-images/Eindgesprek/GingGoed4.png">
+  <img src="readme-images/Eindgesprek/GingGoed5.png">
 
 
   ### Dit was lastig/Is niet gelukt:
-  Korte omschrijving met plaatjes
+  Er is maar 1 element niet gelukt om te maken; en dat is een parallax achtergrond. Dit is mij helaas niet gelukt en had ik ook  te weinig tijd voor... Gelukkig is de rest wel af gekomen!
 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="bummer">
+  <img src="readme-images/Eindgesprek/NietGelukt.png">
 </details>
 
 
