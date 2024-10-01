@@ -2,8 +2,8 @@
 const gemeraButton = document.querySelector('.GemeraButton')
 const attackButton = document.querySelector('.AttackButton')
 const jeskoButton = document.querySelector('.AbsolutButton')
-const firstH2 = document.getElementById('firstHeader')
-const secondH2 = document.getElementById("secondHeader")
+const firstH2 = document.querySelector('#sectionTwo h2')
+const secondH2 = document.querySelector('#sectionTwo p')
 
 function changeClasses(removeFirst, removeSecond, AddClass, firstContent, secondContent){
   section2.classList.remove(removeFirst);

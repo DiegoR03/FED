@@ -15,6 +15,8 @@ const preImg = document.querySelector('#previewPhoto');
 const leftArrow = document.getElementById('leftArrow');
 const rightArrow = document.getElementById('rightArrow');
 
+const currentImage = document.getElementById('currentPage')
+
 let carouselImages = ['images/SecondPage/Carousel/Image1.png',
                       'images/SecondPage/Carousel/Image2.png',
                       'images/SecondPage/Carousel/Image3.png',
@@ -31,10 +33,18 @@ let carouselImages = ['images/SecondPage/Carousel/Image1.png',
                     ];
 let index = 0;
 
-function change() {
-   mainImg.src = carouselImages[index];
-   preImg.src = carouselImages[index + 1];
-   index > 1 ? index = 0 : index++;
+function changeImages() {
+  mainImg.src = carouselImages[index];
+  preImg.src = carouselImages[index + 1];
+  currentImage.textContent = index + 1;
+  index++;
+  if(index > 12){
+    preImg.src = carouselImages[0];
+    index = 0;
+  } else if(index == 12){
+    mainImg.src = carouselImages[12];
+    preImg.src = carouselImages[0];
+  }
 }
 
 function changeClasses(firstImage, secondImage, thirdImage){
@@ -44,7 +54,7 @@ function changeClasses(firstImage, secondImage, thirdImage){
 }
 
 window.onload = function () {
-  setInterval(change, 10000);
+  setInterval(changeImages, 2000);
 };
 
 crankshaftBtn.addEventListener('click', function(){

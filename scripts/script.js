@@ -8,10 +8,13 @@ const nav = document.querySelector('nav')
 const body = document.querySelector('body')
 const section2 = document.querySelector('#sectionTwo')
 
+const firstButton = document.getElementById('discover')
+const details = document.querySelectorAll("details");
+
 let lastScrollTop = 0;
 let scrollFromTop;
 
-
+// Simple Menu button for opening and closing the menu element
 function openMenu(){
   if (menuBody.style.display === "grid") {
     nav.classList.remove("opened");
@@ -30,6 +33,7 @@ function openMenu(){
   }
 }
 
+// Makes the header appear and dissapear on scroll
 function scrollHide() {
   scrollFromTop = document.documentElement.scrollTop;
   if (scrollFromTop > lastScrollTop) {
@@ -47,6 +51,7 @@ function scrollHide() {
 }
 window.onscroll = function() {scrollHide()};
 
+// Give all text elements en images a slow fade in animation
 function revealText() {
   var wrapper = document.querySelectorAll("section");
   wrapper.forEach(function (parent, index) {
@@ -73,9 +78,7 @@ function revealText() {
   });
 }
 
-// Close all the details elements
-const details = document.querySelectorAll("details");
-
+// Close all detail element
 details.forEach((detail) => {
   detail.addEventListener("toggle", () => {
     if (detail.open) setTargetDetail(detail);
@@ -90,8 +93,19 @@ function setTargetDetail(targetDetail) {
   });
 }
 
+// Keyboard shortcut
+function handleShortcut(event) {
+  switch (event.key) {
+    case "Escape":
+      openMenu();
+      break;
+  }
+}
+
+// Event listeren
 window.addEventListener("scroll", revealText);
 revealText();
 
 menuButton.addEventListener('click', openMenu);
 headerButton.addEventListener('click', openMenu);
+document.addEventListener("keydown", handleShortcut);
