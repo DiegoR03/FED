@@ -29,6 +29,7 @@ function openMenu(){
     menuBody.style.display = "grid";
     nav.classList.remove('closed');
     nav.classList.add('opened');
+    document.getElementById("logoHeader").focus({focusVisible: false});
     body.classList.add('disableScrollBody');
   }
 }
