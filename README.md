@@ -324,5 +324,6 @@ De tweede pagina had eigenlijk de zelfde problemen en deze zijn ook opgelost.
   8. https://stackoverflow.com/questions/16751345/automatically-close-all-the-other-details-tags-after-opening-a-specific-detai
   9. https://stackoverflow.com/questions/16751345/automatically-close-all-the-other-details-tags-after-opening-a-specific-detail
   10. https://stackoverflow.com/questions/21319503/select-and-add-class-in-javascript
+  11. https://stackoverflow.com/questions/27751409/how-to-set-inputfocus-style-programatically-using-javascript
 
 </details>
