@@ -225,7 +225,7 @@ li {
 /* Text Section 2*/
 #bodyPageTwo section:nth-of-type(2) h2{
 	font-size: 1.5vh;
-	color: var(--color-text);
+	color: var(--color-text-opposite);
 	font-family:Arial, Helvetica, sans-serif;
 	font-weight: 400;
 	font-style: normal;
@@ -350,6 +350,7 @@ li {
 	margin-top: 0.1vh;
 	width: 5vw;
 	height: 5vw;
+	color: var(--color-text);
 }
 
 #bodyPageTwo section:nth-of-type(4) details{
@@ -374,6 +375,7 @@ li {
 	text-transform: none;
 	animation: 0.6s detailsAnimation;
 	opacity: 100%;
+	color: var(--color-text);
 }
 
 #bodyPageTwo section:nth-of-type(4) p:nth-of-type(4), #bodyPageTwo section:nth-of-type(5) p:nth-of-type(4){
@@ -434,7 +436,7 @@ li {
 }
 
 #bodyPageTwo section:nth-of-type(5) article{
-	background-image: url(../images/inspiration_Background.jpg);
+	background-image: url(../images/SecondPage/Backgrounds/inspiration_Background.jpg);
 	background-position: center;
 	height: 150vh;
 	width: var(--width-screen);
@@ -869,7 +871,7 @@ section:nth-of-type(1), section:nth-of-type(2){
 }
 
 #bodyPageOne section:nth-of-type(1){
-	background-image: url("../images/HomePageImg.jpeg");
+	background-image: url("../images/FirstPage/HomePageImg.jpeg");
 	animation: 1s backgroundAnimation;
 	background-position: center center;
 }
@@ -891,17 +893,17 @@ section:nth-of-type(1), section:nth-of-type(2){
 /* Section 2 */
 
 .Gemera{
-	background-image: url("../images/GemeraImg.jpeg");
+	background-image: url("../images/FirstPage/GemeraImg.jpeg");
 	transition: 0.2s;
 }
 
 .Attack{
-	background-image: url("../images/AttackImg.jpeg");
+	background-image: url("../images/FirstPage/AttackImg.jpeg");
 	transition: 0.2s;
 }
 
 .Absolut{
-	background-image: url("../images/AbsolutImg.jpeg");
+	background-image: url("../images/FirstPage/AbsolutImg.jpeg");
 	transition: 0.4s;
 }
 
@@ -949,7 +951,7 @@ section:nth-of-type(1), section:nth-of-type(2){
 /* Page 2 */
 /* Section 1 */
 #bodyPageTwo section:nth-of-type(1){
-	background-image: url("../images/JeskoAbsolutHome.jpeg");
+	background-image: url("../images/SecondPage/JeskoAbsolutHome.jpeg");
 	height: 80vh;
 }
 
@@ -968,7 +970,7 @@ section:nth-of-type(1), section:nth-of-type(2){
 
 /* Section 3 */
 #bodyPageTwo section:nth-of-type(3){
-	background-image: url("../images//SecondPage/JeskoRearImage.jfif");
+	background-image: url("../images/SecondPage/JeskoRearImage.jfif");
 	height: 75vh;
 	overflow: hidden;
 	background-size: cover;
@@ -1450,12 +1452,12 @@ section:nth-of-type(2) button:focus{
 	}
 
 	#bodyPageOne section:nth-of-type(1){
-		background-image: url("../images/HomePageImg.jpeg");
+		background-image: url("../images/FirstPage/HomePageImg.jpeg");
 		background-position: center center;
 	}
 
 	#bodyPageOne section:nth-of-type(1){
-		background-image: url("../images/HomePageImg.jpeg");
+		background-image: url("../images/FirstPage/HomePageImg.jpeg");
 		animation: 0s backgroundAnimation;
 		background-position: center center;
 	}
@@ -1544,7 +1546,7 @@ section:nth-of-type(2) button:focus{
 	}
 
 	#bodyPageOne section:nth-of-type(1){
-		background-image: url("../images/HomePageImgSmall.png");
+		background-image: url("../images/FirstPage/HomePageImgSmall.png");
 		background-position: center;
 	}
 

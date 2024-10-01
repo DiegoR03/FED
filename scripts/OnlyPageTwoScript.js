@@ -58,11 +58,11 @@ window.onload = function () {
 };
 
 crankshaftBtn.addEventListener('click', function(){
-  changeClasses('images/SecondPage/JeskoAbsolutFront.png', 'images/SecondPage/JeskoAbsolutBack.png', 'images/SecondPage/JeskoAbsolutSide.png');
+  changeClasses('images/SecondPage/Section4/JeskoAbsolutFront.png', 'images/SecondPage/Section4/JeskoAbsolutBack.png', 'images/SecondPage/Section4/JeskoAbsolutSide.png');
 }); 
 cfdBtn.addEventListener('click', function(){
-  changeClasses('images/SecondPage/JeskoAirodynamics.png', 'images/SecondPage/JeskoSmallBack.jpg', 'images/SecondPage/jeskoEmpty.png');
+  changeClasses('images/SecondPage/Section4/JeskoAirodynamics.png', 'images/SecondPage/Section4/JeskoSmallBack.jpg', 'images/SecondPage/Section4/jeskoEmpty.png');
 });  
 pressureBtn.addEventListener('click', function(){
-  changeClasses('images/SecondPage/JeskoTempOne.png', 'images/SecondPage/JeskoTempTwo.png', 'images/SecondPage/JeskoTempThree.png');
+  changeClasses('images/SecondPage/Section4/JeskoTempOne.png', 'images/SecondPage/Section4/JeskoTempTwo.png', 'images/SecondPage/Section4/JeskoTempThree.png');
 });
