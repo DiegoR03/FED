@@ -276,7 +276,9 @@ De tweede pagina had eigenlijk de zelfde problemen en deze zijn ook opgelost.
   <summary>uitwerken voor eindgesprek</summary>
 
   ### Je uitkomst - karakteristiek screenshots:
-  <img src="readme-images/Eindgesprek/HomePage">
+  Het is mij verassend goed gelukt om de originele website na te bouwen. Ik heb ze super vaak vergeleken en uiteindelijk is mijn product bijna het zelfde met wat kleine andere details hier en daar. Ook zitten er verbeteringen!
+  <br>
+  <img src="readme-images/Eindgesprek/HomePage.png">
 
 
   ### Dit ging goed/Heb ik geleerd: 
