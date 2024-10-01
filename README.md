@@ -321,7 +321,8 @@ De tweede pagina had eigenlijk de zelfde problemen en deze zijn ook opgelost.
   5. https://codepen.io/webmarcello8080/pen/KKbzMQQ
   6. https://bennettfeely.com/clippy/
   7. https://stackoverflow.com/questions/68441473/how-can-i-trigger-this-animation-to-start-once-in-viewport
-  8. https://stackoverflow.com/questions/16751345/automatically-close-all-the-other-details-tags-after-opening-a-specific-detail
-  9. https://stackoverflow.com/questions/21319503/select-and-add-class-in-javascript
+  8. https://stackoverflow.com/questions/16751345/automatically-close-all-the-other-details-tags-after-opening-a-specific-detai
+  9. https://stackoverflow.com/questions/16751345/automatically-close-all-the-other-details-tags-after-opening-a-specific-detail
+  10. https://stackoverflow.com/questions/21319503/select-and-add-class-in-javascript
 
 </details>
